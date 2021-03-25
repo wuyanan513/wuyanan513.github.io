@@ -129,6 +129,32 @@
     </td>	 
   </tr>
 
+  <tr onmouseout="glioblastoma_prognosis_stop()" onmouseover="glioblastoma_prognosis_start()">
+    <td width="35%">
+      <div class="one">
+        <div class="two" id='glioblastoma_prognosis_image'><img src='images/glioblastoma_multiforme_prognosis/model.png' height="200" width="270" ></div>
+        <img src='images/glioblastoma_multiforme_prognosis/result.png' height="120" width="270" >
+      </div>
+      <script type="text/javascript">
+        function glioblastoma_prognosis_start() {
+          document.getElementById('glioblastoma_prognosis_image').style.opacity = "1";
+        }
+        function glioblastoma_prognosis_stop() {
+          document.getElementById('glioblastoma_prognosis_image').style.opacity = "0";
+        }
+        glioblastoma_prognosis_stop()
+      </script>
+    </td>
+    <td valign="middle" width="75%">
+      <a href=""><papertitle> Glioblastoma Multiforme Prognosis: MRI Missing Modality Generation, Segmentation and Radiogenomic Survival Prediction</papertitle>
+      </a> 
+      <div><b href=""> Computerized Medical Imaging and Graphics 2021 [accepted]</b></div>  
+      <p><strong>Mobarakol Islam</strong>, Navodini Wijethilake, Hongliang Ren</p>   
+      <p> In this paper, we propose a radiogenomic overall survival (OS) prediction approach by incorporating gene expression data with radiomic features such as shape, geometry, and clinical information.  We exploit TCGA (The Cancer Genomic Atlas) dataset and synthesize the missing MRI modalities using a fully convolutional network (FCN) in a conditional Generative Adversarial Network (cGAN). </p>
+      <a href="">Paper </a> |  <a href=""> Code </a> 
+    </td>	 
+  </tr>
+
   <tr onmouseout="stmtl_stop()" onmouseover="stmtl_start()">
     <td width="35%">
       <div class="one">
